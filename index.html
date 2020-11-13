@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>YouTube</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+  <script src="main.js" defer></script>
+  <script src="https://kit.fontawesome.com/9cba1a0d78.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <!-- header+section.player+section.info+section.upNext -->
+
+  <!-- header -->
+  <header>
+    <div class="logo">
+      <i class="fab fa-youtube"></i>
+      <span class="title">YouTube</span>
+    </div>
+    <div class="icons">
+      <i class="fas fa-search"></i>
+      <i class="fas fa-ellipsis-v"></i>
+    </div>
+  </header>
+
+  <!-- Video Player -->
+  <section class="player">
+    <video controls src="video/Cycling - 39183.mp4"></video>
+  </section>
+
+
+  <div class="infoAndUpNext">
+
+    <!-- Video Info -->
+    <section class="info">
+
+      <!-- Metadata -->
+      <div class="metadate">
+        <ul class="hashtags">
+          <li>#Coding</li>
+          <li>#DreamCorder</li>
+          <li>#Sujin</li>
+        </ul>
+        <div class="titleAndButton">
+          <span class="title clamp">
+            Clone Coding: YouTube Mobile First 유튜브 모바일 웹사이트 따라서 만들어보자 | 프론트엔드 새내기
+          </span>
+          <button class="moreBtn">
+            <i class="fas fa-caret-down"></i>
+          </button>
+        </div>
+        <span class="views">1M views 1 month ago</span>
+      </div>
+
+      <!-- Actions -->
+      <ul class="actions">
+        <li><button><i class="active fas fa-thumbs-up"></i><span>1K</span></button></li>
+        <li><button><i class="fas fa-thumbs-down"></i><span>0</span></button></li>
+        <li><button><i class="fas fa-share"></i><span>Share</span></button></li>
+        <li><button><i class="fas fa-plus"></i><span>Save</span></button></li>
+        <li><button><i class="fab fa-font-awesome-flag"></i><span>Report</span></button></li>
+      </ul>
+
+      <!-- Channel Description -->
+      <div class="channel">
+        <div class="metadata">
+          <img src="img/profile.jpg" alt="">
+          <div class="info">
+            <span class="name">프론트엔드 꿈나무</span>
+            <span class="subscribers">1M subscribers</span>
+          </div>
+        </div>
+        <button class="subscribe">subscribe</button>
+      </div>
+    </section>
+
+    <!-- Up Next -->
+    <section class="upNext">
+      <span class="title">Up next</span>
+      <ul>
+        <li class="item">
+          <div class="img"><img src="img/pic1.png" alt=""></div>
+          <div class="info">
+            <span class="title">Zendaya Shows One of Her and Zac Efron's Trapeze Fails
+            </span>
+            <span class="name">The Tonight Show Starring Jimmy Fallon</span>
+            <span class="views">231M views</span>
+          </div>
+          <button class="moreBtn">
+            <i class="fas fa-ellipsis-v"></i>
+          </button>
+        </li>
+        <li class="item">
+          <div class="img"><img src="img/pic2.png" alt=""></div>
+          <div class="info">
+            <span class="title">The Greatest Showman | “This is Me” Challenge | 20th Century FOX</span>
+            <span class="name">Fox Family Entertainment</span>
+            <span class="views">502M views</span>
+          </div>
+          <button class="moreBtn">
+            <i class="fas fa-ellipsis-v"></i>
+          </button>
+        </li>
+        <li class="item">
+          <div class="img"><img src="img/pic3.png" alt=""></div>
+          <div class="info">
+            <span class="title">That comes with a breathtaking view</span>
+            <span class="name">Idina Menzel</span>
+            <span class="views">152M views</span>
+          </div>
+          <button class="moreBtn">
+            <i class="fas fa-ellipsis-v"></i>
+          </button>
+        </li>
+        <li class="item">
+          <div class="img"><img src="img/pic4.png" alt=""></div>
+          <div class="info">
+            <span class="title">Michelle Williams - Tightrope (Lyrics & Pictures)</span>
+            <span class="name">Kitten Gray</span>
+            <span class="views">907M views</span>
+          </div>
+          <button class="moreBtn">
+            <i class="fas fa-ellipsis-v"></i>
+          </button>
+        </li>
+      </ul>
+    </section>
+
+  </div>
+
+</body>
+
+</html>
